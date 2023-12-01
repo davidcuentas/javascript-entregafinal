@@ -1,165 +1,165 @@
 document.addEventListener('DOMContentLoaded', function () {
-    
-    const datosProductos = [
-        {
-            id: 1,
-            nombre: "Base jabón blanca",
-            precio: 41000,
-            categoria: "Base",
-            imagen: "/images/base-jabón-blanca.jpg",
-        },
 
-        {
-            id: 2,
-            nombre: "Base jabón transparente",
-            precio: 43000,
-            categoria: "Base",
-            imagen: "/images/base-jabón-transparente.jpg",
-        },
+  const datosProductos = [
+    {
+      id: 1,
+      nombre: "Base jabón blanca",
+      precio: 41000,
+      categoria: "Base",
+      imagen: "/images/base-jabón-blanca.jpg",
+    },
 
-        {
-            id: 3,
-            nombre: "Base acondicionador",
-            precio: 56600,
-            categoria: "Base",
-            imagen: "/images/base-acondicionador.jpg",
-        },
+    {
+      id: 2,
+      nombre: "Base jabón transparente",
+      precio: 43000,
+      categoria: "Base",
+      imagen: "/images/base-jabón-transparente.jpg",
+    },
 
-        {
-            id: 4,
-            nombre: "Base crema corporal",
-            precio: 56600,
-            categoria: "Base",
-            imagen: "/images/base-crema-corporal.jpg",
-        },
+    {
+      id: 3,
+      nombre: "Base acondicionador",
+      precio: 56600,
+      categoria: "Base",
+      imagen: "/images/base-acondicionador.jpg",
+    },
 
-        {
-            id: 5,
-            nombre: "Base shampoo",
-            precio: 54600,
-            categoria: "Base",
-            imagen: "/images/base-shampoo.jpg",
-        },
+    {
+      id: 4,
+      nombre: "Base crema corporal",
+      precio: 56600,
+      categoria: "Base",
+      imagen: "/images/base-crema-corporal.jpg",
+    },
 
-        {
-            id: 6,
-            nombre: "Color amarillo",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-amarillo.jpg",
-        },
+    {
+      id: 5,
+      nombre: "Base shampoo",
+      precio: 54600,
+      categoria: "Base",
+      imagen: "/images/base-shampoo.jpg",
+    },
 
-        {
-            id: 7,
-            nombre: "Color azul",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-azul.jpg",
-        },
+    {
+      id: 6,
+      nombre: "Color amarillo",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-amarillo.jpg",
+    },
 
-        {
-            id: 8,
-            nombre: "Color cyan",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-cyan.jpg",
-        },
+    {
+      id: 7,
+      nombre: "Color azul",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-azul.jpg",
+    },
 
-        {
-            id: 9,
-            nombre: "Color café",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-café.jpg",
-        },
+    {
+      id: 8,
+      nombre: "Color cyan",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-cyan.jpg",
+    },
 
-        {
-            id: 10,
-            nombre: "Color rojo",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-rojo.jpg",
-        },
+    {
+      id: 9,
+      nombre: "Color café",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-café.jpg",
+    },
 
-        {
-            id: 11,
-            nombre: "Color fucsia",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-fucsia.jpg",
-        },
+    {
+      id: 10,
+      nombre: "Color rojo",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-rojo.jpg",
+    },
 
-        {
-            id: 12,
-            nombre: "Color negro",
-            precio: 8300,
-            categoria: "Pigmento",
-            imagen: "/images/color-negro.jpg",
-        },
+    {
+      id: 11,
+      nombre: "Color fucsia",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-fucsia.jpg",
+    },
 
-        {
-            id: 13,
-            nombre: "Caléndula",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/caléndula.jpg",
-        },
+    {
+      id: 12,
+      nombre: "Color negro",
+      precio: 8300,
+      categoria: "Pigmento",
+      imagen: "/images/color-negro.jpg",
+    },
 
-        {
-            id: 14,
-            nombre: "Lavanda",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/lavanda.jpg",
-        },
+    {
+      id: 13,
+      nombre: "Caléndula",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/caléndula.jpg",
+    },
 
-        {
-            id: 15,
-            nombre: "Manzanilla",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/manzanilla.jpg",
-        },
+    {
+      id: 14,
+      nombre: "Lavanda",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/lavanda.jpg",
+    },
 
-        {
-            id: 16,
-            nombre: "Menta",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/menta.jpg",
-        },
+    {
+      id: 15,
+      nombre: "Manzanilla",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/manzanilla.jpg",
+    },
 
-        {
-            id: 17,
-            nombre: "Romero",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/romero.jpg",
-        },
+    {
+      id: 16,
+      nombre: "Menta",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/menta.jpg",
+    },
 
-        {
-            id: 18,
-            nombre: "Rosas",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/rosas.jpg",
-        },
+    {
+      id: 17,
+      nombre: "Romero",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/romero.jpg",
+    },
 
-        {
-            id: 19,
-            nombre: "Sal del Himalaya",
-            precio: 4500,
-            categoria: "Ingredientes",
-            imagen: "/images/sal-del-himalaya.jpg",
-        },
-    ];
+    {
+      id: 18,
+      nombre: "Rosas",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/rosas.jpg",
+    },
+
+    {
+      id: 19,
+      nombre: "Sal del Himalaya",
+      precio: 4500,
+      categoria: "Ingredientes",
+      imagen: "/images/sal-del-himalaya.jpg",
+    },
+  ];
 
   const carrito = obtenerCarritoDesdeLocalStorage() || [];
   const listaCarrito = document.getElementById('lista-carrito');
   const totalCarritoElement = document.getElementById('total-carrito');
   const carritoContainer = document.getElementById('carrito');
 
-  
+
   function mostrarProductos(productos) {
     const contenedor = document.getElementById('contenedor-productos');
     contenedor.innerHTML = '';
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
       listaCarrito.appendChild(listItem);
       totalCarrito += item.precio;
       compraRojo.style.display = 'block';
-     });
+    });
 
     totalCarritoElement.textContent = totalCarrito;
     guardarCarritoEnLocalStorage();
@@ -196,14 +196,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function mostrarCarrito() {
     carritoContainer.style.display = 'block';
-}
+  }
 
-function ocultarCarrito() {
-  carritoContainer.style.display = 'none';
-}
+  function ocultarCarrito() {
+    carritoContainer.style.display = 'none';
+  }
 
-window.mostrarCarrito = mostrarCarrito;
-window.ocultarCarrito = ocultarCarrito;
+  window.mostrarCarrito = mostrarCarrito;
+  window.ocultarCarrito = ocultarCarrito;
 
   window.agregarAlCarrito = function (idProducto) {
     const productoSeleccionado = datosProductos.find(producto => producto.id === idProducto);
@@ -254,7 +254,6 @@ window.ocultarCarrito = ocultarCarrito;
 
     modal.style.display = 'block';
 
-    // Cierre del modal al hacer clic fuera de él
     window.onclick = function (event) {
       if (event.target === modal) {
         cerrarModal();
